@@ -10,7 +10,7 @@ class Snow extends Component {
                 geometry="primitive: sphere; radius:0.05;"
                 material="opacity: 1; color:white;"
                 >
-        <a-animation attribute="position" dur="4000" from={this.props.from} to={this.props.to} delay={Math.floor(Math.random() * 1500) + 0} repeat="indefinite"></a-animation>
+        <a-animation attribute="position" dur="4000" from={this.props.from} to={this.props.to} delay={Math.floor(Math.random() * 4000) + 100} repeat="indefinite"></a-animation>
       </a-entity>
     );
   }
